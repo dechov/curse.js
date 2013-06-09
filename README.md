@@ -1,7 +1,7 @@
 curse.js
 ========
 
-Page-based scrolling experiment with vertical-track cursor.
+Page-based scrolling experiment with vertical-track cursor. See [demo](http://dechov.github.io/curse.js/)!
 
 ## Requirements
 
