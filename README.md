@@ -5,8 +5,8 @@ Page-based scrolling experiment with vertical-track cursor.
 
 ## Requirements
 
-- [jquery-mousewheel][https://github.com/brandonaaron/jquery-mousewheel]
-- [jquery-resize][https://github.com/cowboy/jquery-resize]
+- [jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel)
+- [jquery-resize](https://github.com/cowboy/jquery-resize)
 
 
 ## Usage
