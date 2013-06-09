@@ -1,0 +1,35 @@
+
+height = 100
+scrollMargin = 20
+scrollInterval = 60
+
+
+h => maxPageIndex
+99 => 0
+100 => 1
+159 => 1
+160 => 2
+219 => 2
+220 => 3
+
+maxPageIndex = Math.floor((h - 40) / 60)
+
+
+y => pageIndex, scrollOffset
+19 => 0, 19
+79 => 0, 79
+80 => 1, 20
+139 => 1, 79
+140 => 2, 20
+199 => 2, 79
+
+pageIndex = Math.max(Math.min(Math.floor((y - 20) / 60), maxPageIndex), 0)
+scrollOffset = y - 60 * pageIndex
+
+
+pageIndex => scrollTop
+0 => 0
+1 => 60
+2 => 120
+
+scrollTop = pageIndex * scrollInterval
