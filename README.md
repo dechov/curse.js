@@ -5,14 +5,16 @@ Page-based scrolling experiment with vertical-track cursor. See [demo](http://de
 
 ## Dependencies
 
-- jQuery
+- **jQuery**
 - [brandonaaron/jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel)
 - [cowboy/jquery-resize](https://github.com/cowboy/jquery-resize) *(optional)*
 
 
 ## Usage
 
-    $('.your-text-container').curse(options);
+```javascript
+$('.your-text-container').curse(options);
+```
  
 Options (and *defaults*):
 - scrollMarginRatio: *1/7*
