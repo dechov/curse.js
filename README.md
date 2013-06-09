@@ -3,10 +3,11 @@ curse.js
 
 Page-based scrolling experiment with vertical-track cursor. See [demo](http://dechov.github.io/curse.js/)!
 
-## Requirements
+## Dependencies
 
-- [jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel)
-- [jquery-resize](https://github.com/cowboy/jquery-resize)
+- jQuery
+- [brandonaaron/jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel)
+- [cowboy/jquery-resize](https://github.com/cowboy/jquery-resize) *(optional)*
 
 
 ## Usage
