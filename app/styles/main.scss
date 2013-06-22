@@ -15,6 +15,10 @@ html, body {
   overflow: hidden;
 }
 
+body {
+  background-image: url('../images/ps_neutral.png');
+}
+
 p {
   margin: 0 0 10px;
   &:last-of-type {
@@ -49,7 +53,7 @@ p {
 }
 
 .curse-btn {
-  padding: 0.5em 0.3em;
+  padding: 0.5em;
   font-size: 1.5em;
   line-height: 1em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
